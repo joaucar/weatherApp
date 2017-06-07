@@ -1,0 +1,53 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <title>My Weather App</title>
+        <link rel="stylesheet" href="weatherapp.css" type="text/css" />
+        <script src="https://use.fontawesome.com/3531571d6a.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="moment/moment.js"></script>
+        <script src="moment/momenttimezone.js"></script>
+          <script type="text/javascript" src="weatherapp.js"></script>
+    </head>
+    <body class="body">
+        <div class="locate">
+            <input type="text" id="bar" placeholder="Enter location">
+            <button type="submit" class="btn">
+                <i class="fa fa-search"></i>
+             </button>
+        </div> 
+        <div class="city"></div>
+        <div class="Day1">
+            <div class="info1">
+            <div class="date">
+                <h2 id="date">Date</h2>
+                <h4 id="day">Day</h4>
+            </div>
+        <div class="lower">
+        <div class="left">
+            <div class="icon">
+                <div class="pic1">
+                    <i class="fa fa-sun-o" aria-hidden="true"></i>
+                </div>
+                <h4 class="type">Type</h4>
+            </div>
+        </div>
+        <div class="right">
+            <div class="weather">
+                <p id="temp">Temp</p>
+                
+            </div>
+            <div class="other">
+                <p class="time">Time</p>
+                <p class="humidity">Humidity</p>
+            </div>
+        </div>
+        </div>
+            </div>
+        </div>
+        <div class="nextDays">
+        
+        </div>
+        
+    </body>
+</html>
